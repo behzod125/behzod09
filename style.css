@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card {
+    width: 100%;
+    height: auto;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+
+    
+}
+.card h5{
+font-size: 20px;
+font-weight: 400;
+margin-top: 12px;
+color: aquamarine; 
+color: blanchedalmond;  
+    
+}
+
+
+.card p{
+    width: 321px;
+    height: 132px;
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 200px;
+background-color: rgb(255, 171, 4);
+
+}
+
+.green {
+    width: 450px;
+    height: 470px;
+    border: 5px solid rgb(255, 89, 0);
+    background-color: #8f0000;
+}
+
+.green div img {
+    width: 50%;
+}
